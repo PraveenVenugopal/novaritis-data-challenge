@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 from collections import Counter
 
+print("DATA READING -------------------------> ")
 sandbox = pd.read_csv("data/easy_load.csv").drop("Unnamed: 0",axis=1)
 sandbox["Timestamp"]  = pd.to_datetime(sandbox["Timestamp"],format="%Y-%m-%d %H:%M:%S")
 sandbox.set_index(["Timestamp"],inplace=True)
