@@ -93,7 +93,7 @@ for col in non_cat:
 sandbox[non_cat] = sandbox[non_cat].apply(pd.to_numeric, errors='coerce').fillna(0)
 
 
-#TODO: Avoid hard coding of the "marked_index"
+# TODO: Avoid hard coding of the "marked_index"
 marked_index = datetime.strptime("2016-07-01 00:00:00","%Y-%m-%d %H:%M:%S")
 
 # Get fresh set of feature columns since we added a bunch of those  during OHE
