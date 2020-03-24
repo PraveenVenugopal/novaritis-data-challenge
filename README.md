@@ -6,4 +6,4 @@ A temporary store for code , data and visuals
 novaritis-data-challege " )
 3. Run data_processor.py
 4. Run construct_deep_forecast_models.py
-5. The forecast plots and trained models will be stored in "img" and "models" forlders respectively.
+5. The forecast plots and trained models will be stored in "img" and "models" folders respectively.
