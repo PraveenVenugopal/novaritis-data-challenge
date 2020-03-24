@@ -113,8 +113,6 @@ def construct_forecast_ensemble():
 		fig.savefig(image_path+str(col) + "ts_6.png")
 		fig.show()
 
-
-
 	for k in prediction_store:
 		plot_preds_new(prediction_store[k][0],prediction_store[k][1],k)
 
