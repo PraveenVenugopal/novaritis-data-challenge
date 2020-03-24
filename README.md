@@ -4,12 +4,13 @@ A temporary store for code, models and visuals. An incremental and continuous ap
 The former, though straight forward had significant challenges due to severe class imbalance and high dimensionality. The latter was more informative and lead to some interesting learning. Inferences from failures of Supervised learning was used to construct a new regression based Forecast model (as opposed to the classification models earlier). Visuals are employed to show the effectivity of the forecasts on test set.Please refer the slides for more technical details.
 
 # Pre-requisites
-Python 3.6.1 or higher
-Keras 2.2.4
-Matplotlib 3.0.3
-Numpy 1.15.4
-Pandas 0.24.1
-Scikit-Learn 0.22.1
+1. Python 3.6.1 or higher
+2. Keras 2.2.4
+3. Matplotlib 3.0.3
+4. Numpy 1.15.4
+5. Pandas 0.24.1
+6. Scikit-Learn 0.22.1
+7. Tensorflow 1.7.1
 
 
 
